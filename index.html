@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunting Batu Kertas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gunting Batu Kertas</h1>
+        
+        <div class="score-board">
+            <div id="player-score" class="score">Pemain: 0</div>
+            <div id="computer-score" class="score">Komputer: 0</div>
+        </div>
+
+        <div id="result" class="result">
+            Pilih Gunting, Batu, atau Kertas untuk memulai!
+        </div>
+
+        <div class="choices">
+            <button id="rock" class="choice-btn">
+                <img src="img/batu.png" alt="Batu">
+                <br>Batu
+            </button>
+            <button id="paper" class="choice-btn">
+                <img src="img/kertas.png" alt="Kertas">
+                <br>Kertas
+            </button>
+            <button id="scissors" class="choice-btn">
+                <img src="img/gunting.png" alt="Gunting">
+                <br>Gunting
+            </button>
+        </div>
+
+        <div class="choices-display">
+            <div id="player-choice" class="choice-text">Kamu: -</div>
+            <div id="computer-choice" class="choice-text">Komputer: -</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
