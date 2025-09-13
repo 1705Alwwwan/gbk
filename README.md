@@ -1,0 +1,2 @@
+# gbk
+gunting batu kertas
